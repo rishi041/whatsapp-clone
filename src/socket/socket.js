@@ -11,7 +11,7 @@ const isParticipant = (conversation, userId) =>
 export function initSocket(httpServer) {
   io = new Server(httpServer, {
     cors: {
-      origin: "https://whatsapp-clone-production-11a5.up.railway.app", // In production: replace with your frontend URL
+      origin: "https://verdant-daifuku-98d616.netlify.app", // In production: replace with your frontend URL
       //origin: [
       //  "https://whatsapp-clone-production-11a5.up.railway.app",
       //  "http://localhost:5173",
