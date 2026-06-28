@@ -58,7 +58,7 @@ export const openApiSpec = {
   servers: [
     { url: "http://localhost:5000", description: "Local" },
     {
-      url: "https://nodejs-production-d170.up.railway.app",
+      url: "https://whatsapp-clone-production-11a5.up.railway.app",
       description: "Production (Railway)",
     },
   ],
