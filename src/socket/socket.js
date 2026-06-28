@@ -11,14 +11,14 @@ const isParticipant = (conversation, userId) =>
 export function initSocket(httpServer) {
   io = new Server(httpServer, {
     cors: {
-      // origin: "*", // In production: replace with your frontend URL
-      origin: [
-        "https://whatsapp-clone-production-11a5.up.railway.app",
-        "http://localhost:5173",
-        "http://localhost:5174",
-        "http://192.168.1.11:5173",
-        "http://192.168.1.11:5174",
-      ],
+      origin: "https://whatsapp-clone-production-11a5.up.railway.app", // In production: replace with your frontend URL
+      //origin: [
+      //  "https://whatsapp-clone-production-11a5.up.railway.app",
+      //  "http://localhost:5173",
+      //  "http://localhost:5174",
+      //  "http://192.168.1.11:5173",
+      //  "http://192.168.1.11:5174",
+      //],
     },
   });
 
